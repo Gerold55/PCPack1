@@ -131,6 +131,7 @@ laptop.register_hardware("pc1:os4_5", {
 	description = "OS 4.5",
 	infotext = "OS 4.5",
 	sequence = { "off", "on"},
+	hw_capabilities = { "hdd", "usb", "floppy", "net", "liveboot" },
 	node_defs = {
 		["on"] = {
 			hw_state = "power_on",
@@ -190,6 +191,7 @@ laptop.register_hardware("pc1:war5000", {
 	description = "WAR 5000",
 	infotext = "WAR 5000",
 	sequence = { "off", "on"},
+	hw_capabilities = { "hdd", "floppy", "net", "liveboot" },
 	node_defs = {
 		["on"] = {
 			hw_state = "power_on",
@@ -251,6 +253,7 @@ laptop.register_hardware("pc1:4k_pink", {
 	description = "4K (pink)",
 	infotext = "4K (pink)",
 	sequence = { "closed", "open", "open_on"},
+	hw_capabilities = { "hdd", "usb", "net", "liveboot" },
 	node_defs = {
 		["closed"] = {
 			hw_state = "power_off",
@@ -331,6 +334,7 @@ laptop.register_hardware("pc1:linux", {
 	description = "MineTu",
 	infotext = "MineTu",
 	sequence = { "closed", "open", "open_on"},
+	hw_capabilities = { "hdd", "usb", "net", "liveboot" },
 	node_defs = {
 		["closed"] = {
 			hw_state = "power_off",
