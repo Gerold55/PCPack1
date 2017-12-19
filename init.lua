@@ -239,15 +239,6 @@ laptop.register_hardware("pc1:war5000", {
 	}
 })
 
-minetest.register_craft({
-	output = 'pc1:monitor4_off',
-	recipe = {
-		{'default:steel_ingot', 'default:steel_ingot', 'default:steel_ingot'},
-		{'default:steel_ingot', 'default:glass', 'default:steel_ingot'},
-		{'default:steel_ingot', 'default:gold_ingot', 'default:steel_ingot'},
-	}
-})
-
 -- pc1 v2.0
 laptop.register_hardware("pc1:4k_pink", {
 	description = "4K (pink)",
@@ -321,15 +312,6 @@ laptop.register_hardware("pc1:4k_pink", {
 	}
 })
 
-minetest.register_craft({
-	output = 'pc1:laptop_closed',
-	recipe = {
-		{'default:steel_ingot', 'default:steel_ingot', 'default:steel_ingot'},
-		{'default:copper_ingot', 'default:copper_ingot', 'default:copper_ingot'},
-		{'default:steel_ingot', 'default:glass', 'default:steel_ingot'},
-	}
-})
-
 laptop.register_hardware("pc1:linux", {
 	description = "MineTu",
 	infotext = "MineTu",
@@ -399,14 +381,5 @@ laptop.register_hardware("pc1:linux", {
 				}
 			}
 		}
-	}
-})
-
-minetest.register_craft({
-	output = 'pc1:laptop_closed',
-	recipe = {
-		{'default:steel_ingot', 'default:steel_ingot', 'default:steel_ingot'},
-		{'default:copper_ingot', 'default:copper_ingot', 'default:copper_ingot'},
-		{'default:steel_ingot', 'default:glass', 'default:steel_ingot'},
 	}
 })
