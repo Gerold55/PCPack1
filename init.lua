@@ -202,7 +202,7 @@ laptop.register_hardware("pc1:war5000", {
 				"pc1_war_pc_s.png",
 				"pc1_war_pc_s.png",
 				"pc1_war_pc_back.png",
-				{name='war_pc_f_on.png', animation={type='vertical_frames', aspect_w=32, aspect_h=32,length=2}},
+				{name='pc1_war_pc_f_on.png', animation={type='vertical_frames', aspect_w=32, aspect_h=32,length=2}},
 			},
 			drawtype = "nodebox",
 			paramtype = "light",
