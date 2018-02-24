@@ -191,6 +191,9 @@ laptop.register_hardware("pc1:war5000", {
 	description = "WAR 5000",
 	infotext = "WAR 5000",
 	sequence = { "off", "on"},
+	custom_theme = "Shell",
+	custom_launcher = "cs-bos_launcher",
+	os_version = "1.10",
 	hw_capabilities = { "hdd", "floppy", "net", "liveboot" },
 	node_defs = {
 		["on"] = {
