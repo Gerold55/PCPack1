@@ -74,7 +74,9 @@ laptop.register_hardware("pc1:amstrum45", {
 description = "Amstrum 45",
 	infotext = "Amstrum 45",
 	sequence = { "off", "on"},
-	custom_theme = "Red",
+	custom_theme = "Shell",
+	custom_launcher = "cs-bos_launcher",
+	os_version = "3.31",
 	hw_capabilities = { "hdd", "floppy", "net", "liveboot" },
 	node_defs = {
 		["on"] = {
@@ -131,6 +133,7 @@ laptop.register_hardware("pc1:os4_5", {
 	description = "OS 4.5",
 	infotext = "OS 4.5",
 	sequence = { "off", "on"},
+	custom_theme = "Boing!",
 	hw_capabilities = { "hdd", "usb", "floppy", "net", "liveboot" },
 	node_defs = {
 		["on"] = {
