@@ -2,6 +2,7 @@ laptop.register_hardware("pc1:4k", {
 	description = "4K",
 	infotext = '4K',
 	sequence = { "closed", "open", "open_on" },
+	custom_theme = "Blue",
 	hw_capabilities = { 'hdd', 'usb', 'net' },
 	node_defs = {
 		["open"] = {
@@ -74,7 +75,9 @@ laptop.register_hardware("pc1:amstrum45", {
 description = "Amstrum 45",
 	infotext = "Amstrum 45",
 	sequence = { "off", "on"},
-	custom_theme = "Red",
+	custom_theme = "Green Shell",
+	custom_launcher = "cs-bos_launcher",
+	os_version = "3.31",
 	hw_capabilities = { "hdd", "floppy", "net", "liveboot" },
 	node_defs = {
 		["on"] = {
@@ -131,6 +134,8 @@ laptop.register_hardware("pc1:os4_5", {
 	description = "OS 4.5",
 	infotext = "OS 4.5",
 	sequence = { "off", "on"},
+	custom_theme = "Boing!",
+	os_version = "6.33",
 	hw_capabilities = { "hdd", "usb", "floppy", "net", "liveboot" },
 	node_defs = {
 		["on"] = {
@@ -191,6 +196,9 @@ laptop.register_hardware("pc1:war5000", {
 	description = "WAR 5000",
 	infotext = "WAR 5000",
 	sequence = { "off", "on"},
+	custom_theme = "Amber Shell",
+	custom_launcher = "cs-bos_launcher",
+	os_version = "1.10",
 	hw_capabilities = { "hdd", "floppy", "net", "liveboot" },
 	node_defs = {
 		["on"] = {
@@ -244,6 +252,7 @@ laptop.register_hardware("pc1:4k_pink", {
 	description = "4K (pink)",
 	infotext = "4K (pink)",
 	sequence = { "closed", "open", "open_on"},
+	custom_theme = "Bubbles",
 	hw_capabilities = { "hdd", "usb", "net", "liveboot" },
 	node_defs = {
 		["closed"] = {
@@ -316,6 +325,8 @@ laptop.register_hardware("pc1:linux", {
 	description = "MineTu",
 	infotext = "MineTu",
 	sequence = { "closed", "open", "open_on"},
+	custom_theme = "Snow Pines",
+	os_version = "6.33",
 	hw_capabilities = { "hdd", "usb", "net", "liveboot" },
 	node_defs = {
 		["closed"] = {
