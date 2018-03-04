@@ -1,4 +1,4 @@
-laptop.register_hardware("pc1:4k", {
+laptop.register_hardware("laptop_pc1:4k", {
 	description = "4K",
 	infotext = '4K',
 	sequence = { "closed", "open", "open_on" },
@@ -71,7 +71,7 @@ laptop.register_hardware("pc1:4k", {
 	}
 })
 
-laptop.register_hardware("pc1:amstrum45", {
+laptop.register_hardware("laptop_pc1:amstrum45", {
 description = "Amstrum 45",
 	infotext = "Amstrum 45",
 	sequence = { "off", "on"},
@@ -130,7 +130,7 @@ description = "Amstrum 45",
 	}
 })
 
-laptop.register_hardware("pc1:os4_5", {
+laptop.register_hardware("laptop_pc1:os4_5", {
 	description = "OS 4.5",
 	infotext = "OS 4.5",
 	sequence = { "off", "on"},
@@ -192,7 +192,7 @@ laptop.register_hardware("pc1:os4_5", {
 	}
 })
 
-laptop.register_hardware("pc1:war5000", {
+laptop.register_hardware("laptop_pc1:war5000", {
 	description = "WAR 5000",
 	infotext = "WAR 5000",
 	sequence = { "off", "on"},
@@ -247,8 +247,8 @@ laptop.register_hardware("pc1:war5000", {
 	}
 })
 
--- pc1 v2.0
-laptop.register_hardware("pc1:4k_pink", {
+-- laptop_pc1 v2.0
+laptop.register_hardware("laptop_pc1:4k_pink", {
 	description = "4K (pink)",
 	infotext = "4K (pink)",
 	sequence = { "closed", "open", "open_on"},
@@ -321,7 +321,7 @@ laptop.register_hardware("pc1:4k_pink", {
 	}
 })
 
-laptop.register_hardware("pc1:linux", {
+laptop.register_hardware("laptop_pc1:linux", {
 	description = "MineTu",
 	infotext = "MineTu",
 	sequence = { "closed", "open", "open_on"},
