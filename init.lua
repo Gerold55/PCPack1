@@ -1,3 +1,5 @@
+dofile(minetest.get_modpath('laptop_pc1')..'/craftrecipes.lua')
+
 laptop.register_hardware("laptop_pc1:4k", {
 	description = "4K",
 	infotext = '4K',
@@ -321,7 +323,7 @@ laptop.register_hardware("laptop_pc1:4k_pink", {
 	}
 })
 
-laptop.register_hardware("laptop_pc1:linux", {
+laptop.register_hardware("laptop_pc1:minetu", {
 	description = "MineTu",
 	infotext = "MineTu",
 	sequence = { "closed", "open", "open_on"},
@@ -394,3 +396,7 @@ laptop.register_hardware("laptop_pc1:linux", {
 		}
 	}
 })
+
+minetest.register_alias("laptop_pc1:linux_closed", "laptop_pc1:minetu_closed")
+minetest.register_alias("laptop_pc1:linux_open", "laptop_pc1:minetu_open")
+minetest.register_alias("laptop_pc1:linux_open_on", "laptop_pc1:minetu_open_on")
