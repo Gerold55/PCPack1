@@ -1,4 +1,9 @@
-# PC Pack 1
-PC Pack 1 made by veNext
+-----------------------------------
+------------PC Pack 1--------------
+Add-on Pack for Minetest Laptop Mod
+-----------------------------------
 
-Rename to pc1
+PC Pack 1 made by veNext
+Recipes by Grizzly Adam
+
+
